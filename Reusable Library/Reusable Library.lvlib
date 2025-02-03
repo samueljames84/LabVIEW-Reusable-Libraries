@@ -9,16 +9,19 @@
 </Property>
 	<Item Name="1st array last element.vim" Type="VI" URL="../1st array last element.vim"/>
 	<Item Name="array last element.vim" Type="VI" URL="../array last element.vim"/>
+	<Item Name="boolean to enable or grayed out.vi" Type="VI" URL="../boolean to enable or grayed out.vi"/>
 	<Item Name="call vi dynamically.vi" Type="VI" URL="../call vi dynamically.vi"/>
 	<Item Name="create folder if not exists.vi" Type="VI" URL="../create folder if not exists.vi"/>
 	<Item Name="defer panel updates.vi" Type="VI" URL="../defer panel updates.vi"/>
-	<Item Name="enable or grayed out.vi" Type="VI" URL="../enable or grayed out.vi"/>
 	<Item Name="enable ot greyed out controls.vim" Type="VI" URL="../enable ot greyed out controls.vim"/>
 	<Item Name="exit application if runtime.vi" Type="VI" URL="../exit application if runtime.vi"/>
 	<Item Name="format date and time.vi" Type="VI" URL="../format date and time.vi"/>
 	<Item Name="generate unique file or folder name.vi" Type="VI" URL="../generate unique file or folder name.vi"/>
-	<Item Name="get all classes in packed library.vi" Type="VI" URL="../get all classes in packed library.vi"/>
+	<Item Name="get all classes from packed library.vi" Type="VI" URL="../get all classes from packed library.vi"/>
+	<Item Name="load class dynamically.vim" Type="VI" URL="../load class dynamically.vim"/>
+	<Item Name="read text file.vi" Type="VI" URL="../read text file.vi"/>
 	<Item Name="set pane orgin.vi" Type="VI" URL="../set pane orgin.vi"/>
-	<Item Name="Sort 2d Array Double.vim" Type="VI" URL="../Sort 2d Array Double.vim"/>
+	<Item Name="sort 2d array.vim" Type="VI" URL="../sort 2d array.vim"/>
 	<Item Name="wait with error cluster.vi" Type="VI" URL="../wait with error cluster.vi"/>
+	<Item Name="write text file.vi" Type="VI" URL="../write text file.vi"/>
 </Library>
