@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-06 08:31:46" Modified_Date="2025-02-06 08:41:28" Creator="Administrator" Comments="" ID="9ba87dc21ff170889a20b42d64610747">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-06 08:31:46" Modified_Date="2025-02-06 10:42:52" Creator="Administrator" Comments="" ID="43fabb2fa16d38e78d057fd3138f6ca2">
   <Library_General_Settings>
     <Package_File_Name>Sam_lib_Reusable_Library</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..\..\Program Files (x86)\National Instruments\LabVIEW 2020\user.lib\_Reusable Library</Library_Source_Folder>
     <Library_Output_Folder>Reusable library</Library_Output_Folder>
-    <Company_Name>Sam</Company_Name>
+    <Company_Name>Sam Works</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
     <Package_LabVIEW_Version>20.0</Package_LabVIEW_Version>
@@ -180,5 +180,377 @@
     </VI_Docs>
     <System_Destinations/>
   </Advanced_Settings>
-  <Library_Palette_Definition/>
+  <Library_Palette_Definition>
+    <Functions_Palette_Data>
+      <Parent_Palette_Index>-1</Parent_Palette_Index>
+      <Name>Sam VIs</Name>
+      <View_Format>Icons</View_Format>
+      <Size>
+        <Height_Row>9</Height_Row>
+        <Width_Col.>4</Width_Col.>
+      </Size>
+      <_256_Color_Icon>00000C1E001D00000C1800000C00000000000020002000180000000000FFFFFF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300000000000000CC3300CC3300CC3300CC3300CC3300CC3300FFFFFDFFFFFDCC3300CC3300CC3300CC3300FFFFFDCC3300CC3300CC3300FFFFFDFFFFFDCC3300CC3300CC3300FFFFFDFFFFFDCC3300CC3300CC3300CC3300CC3300CC3300CC3300000000000000CC3300CC3300CC3300CC3300CC3300FFFFFDCC3300CC3300FFFFFDCC3300CC3300CC3300FFFFFDCC3300CC3300CC3300FFFFFDFFFFFDCC3300CC3300CC3300FFFFFDFFFFFDCC3300CC3300CC3300CC3300CC3300CC3300CC3300000000000000CC3300CC3300CC3300CC3300CC3300CC3300FFFFFDCC3300CC3300CC3300CC3300FFFFFDCC3300FFFFFDCC3300CC3300FFFFFDCC3300FFFFFDCC3300FFFFFDCC3300FFFFFDCC3300CC3300CC3300CC3300CC3300CC3300CC3300000000000000CC3300CC3300CC3300CC3300CC3300CC3300CC3300FFFFFDCC3300CC3300CC3300FFFFFDFFFFFDFFFFFDCC3300CC3300FFFFFDCC3300FFFFFDCC3300FFFFFDCC3300FFFFFDCC3300CC3300CC3300CC3300CC3300CC3300CC3300000000000000CC3300CC3300CC3300CC3300CC3300FFFFFDCC3300CC3300FFFFFDCC3300FFFFFDCC3300CC3300CC3300FFFFFDCC3300FFFFFDCC3300CC3300FFFFFDCC3300CC3300FFFFFDCC3300CC3300CC3300CC3300CC3300CC3300CC3300000000000000CC3300CC3300CC3300CC3300CC3300CC3300FFFFFDFFFFFDCC3300CC3300FFFFFDCC3300CC3300CC3300FFFFFDCC3300FFFFFDCC3300CC3300FFFFFDCC3300CC3300FFFFFDCC3300CC3300CC3300CC3300CC3300CC3300CC3300000000000000CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300CC3300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000033AAAAAACC9966FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000666600000066666666FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000FFFF99CCCC99333333333366777777FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99111111FFFF00FFFF00FFFFCCCCCC99333333333366777777FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FF6666FF6666FF6666FF6666FF6666FF6666FF6666663333000000FFFF33FFFF00FFFF00FFFF00FFFF99CCCC99333333333366777777FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FF3333FF3333FF3333FF3333FF3333FF3333FF3333663333000000FFFF33FFFF00FFCC00FFFF00FFFF00FFFF00FFFF99CCCC99333366333333666666FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99111111FFFF33FFCC00FFCC00FFCC00AAAAAACCCC66FFFF00FFFF00FFFFCCCCCC99333333333366336666FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000FFFF33FFCC00FFFF00FFFF00000033999999FFFF00FFFF00FFCC00FFFF00FFFFCCCCCC99000033333366FFCC99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000FFFF33FFFF00777777999966000000777777777777AAAAAAFFFF00FFCC00FFCC00FFFF33FFFFCCCCCC66333300666666CCCC99339900339900339900339900000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000FFCC33FFFF00000000000000111111000000000000999999FFFF00FFCC00FFCC00FFFF00FFFF00FFFF00996600000000336666339900339900339900339900000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000FFCC33FFCC00FFFF00FFCC00000000999966FFFF00FFCC00FFCC00FFCC00FFFF00FFFF00666600111111333366FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000FFCC33FFCC00FFCC00FFCC00000000777777FFFF00FFCC00FFFF00FFFF00996600000033003366FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF990000000000006699CC3399CC0099CC0099CC3399CC3399CC66CCFF336666000000FFCC33FFCC00FFCC00FFCC00FFFF00FFCC00FFFF00FFFF00996600000000003366FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF990000000000006699CC336699669999669966669999336699006699333366000000FFCC33FFCC00FFCC00FFCC00FFFF00FFFF00996600000000003366FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000FFCC00FFCC00FFFF00FFCC00996600000000333366666699FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000FFCC00FFFF00996600000000333366666699FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99111111996600111111003366666699FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000333366669999FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99FFFF99000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</_256_Color_Icon>
+      <BW_Color_Icon>00000000</BW_Color_Icon>
+      <Help_Info>
+        <Help_Tag/>
+        <Help_File_Path/>
+      </Help_Info>
+      <Description/>
+      <Synchronization_Info>
+        <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
+        <Synchronize_Directory_Path/>
+      </Synchronization_Info>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Generate Unique File or Folder Name</NameSub_Menu_Name>
+        <Short_Name>Generate Unique File Or Folder Name</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\generate unique file or folder name.vi</Path>
+        <VI_Title>Generate Unique File Or Folder Name</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Create Folder If Not Exists</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\create folder if not exists.vi</Path>
+        <VI_Title>Create Folder If Not Exists</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>File Dialog Box</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\File Dialog.vi</Path>
+        <VI_Title>File Dialog Box</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write Text File (vim)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\write text file.vim</Path>
+        <VI_Title>Write Text File (vim)</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Text File (vim)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\read text file.vim</Path>
+        <VI_Title>Read Text File (vim)</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Set Pane Orgin</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\set pane orgin.vi</Path>
+        <VI_Title>Set Pane Orgin</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Boolean To Enable Or Gray Out</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\boolean to enable or grayed out.vi</Path>
+        <VI_Title>Boolean To Enable Or Gray Out</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Defer Panel Updates? (vim)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\defer panel updates.vim</Path>
+        <VI_Title>Defer Panel Updates? (vim)</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>1st Array Element (vim)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\1st array element.vim</Path>
+        <VI_Title>1st Array Element (vim)</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Last Array Element. (vim)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\last array element.vim</Path>
+        <VI_Title>Last Array Element (vim)</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Sort 2D Array (vim)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\sort 2d array.vim</Path>
+        <VI_Title>Sort 2D Array (vim)</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Check if Exe?</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>5</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\is executable.vi</Path>
+        <VI_Title>Check If Exe?</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>This Application Info</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>5</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\this application info.vi</Path>
+        <VI_Title>This Application Info</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Wait With Error Cluster</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>5</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\wait with error cluster.vi</Path>
+        <VI_Title>Wait With Error Cluster</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Format Date And Time</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>true</is_Merge_VI>
+        <Position>
+          <Row>6</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\format date and time.vi</Path>
+        <VI_Title>Format Date And Time</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Launcher Template</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>true</is_Merge_VI>
+        <Position>
+          <Row>6</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\call vi dynamically.vi</Path>
+        <VI_Title>Launcher Template</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Exit App If Exe</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>6</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\exit application if runtime.vi</Path>
+        <VI_Title>Exit App If Exe</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get All lvlibp</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>7</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\get all lvlibp paths.vi</Path>
+        <VI_Title>Get All lvlibp</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get All Classes From lvlibp</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>7</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\get all classes from packed library.vi</Path>
+        <VI_Title>Get All Classes From lvlibp</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Load Packed Library Plugin</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>8</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\load packed library plugin.vim</Path>
+        <VI_Title>Load Packed Library Plugin (vim)</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Load Class Dynamically</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>8</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\load class dynamically.vim</Path>
+        <VI_Title>Load Class Dynamically (vim)</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Debugging Probe by Samuel James</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>9</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\debugging probe.vi</Path>
+        <VI_Title>Debugging Probe</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Send Info to DebugView</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>9</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\send to debugview.vi</Path>
+        <VI_Title>Send To Debugview</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write to System Log.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>9</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;vi.lib&gt;\Utility\SystemLogging\Write to System Log.vi</Path>
+        <VI_Title>Write To Windows Event Log</VI_Title>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Enable Or Grey Out Controls (vim)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>&lt;user.lib&gt;\_Reusable Library\enable or greyed out controls.vim</Path>
+        <VI_Title>Enable Or Greyed Out Controls (vim)</VI_Title>
+      </Items_Data>
+      <GUID>8D15C23276A49B1D62FB7759E614BB0C</GUID>
+    </Functions_Palette_Data>
+  </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
