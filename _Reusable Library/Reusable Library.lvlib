@@ -19,7 +19,7 @@ samueljames84@gmail.com</Property>
 	<Item Name="defer panel updates.vim" Type="VI" URL="../defer panel updates.vim"/>
 	<Item Name="enable or greyed out controls.vim" Type="VI" URL="../enable or greyed out controls.vim"/>
 	<Item Name="exit application if runtime.vi" Type="VI" URL="../exit application if runtime.vi"/>
-	<Item Name="File Dialog.vi" Type="VI" URL="../File Dialog.vi"/>
+	<Item Name="file dialog.vi" Type="VI" URL="../file dialog.vi"/>
 	<Item Name="format date and time.vi" Type="VI" URL="../format date and time.vi"/>
 	<Item Name="generate unique file or folder name.vi" Type="VI" URL="../generate unique file or folder name.vi"/>
 	<Item Name="get all classes from packed library.vi" Type="VI" URL="../get all classes from packed library.vi"/>
@@ -30,7 +30,7 @@ samueljames84@gmail.com</Property>
 	<Item Name="load packed library plugin.vim" Type="VI" URL="../load packed library plugin.vim"/>
 	<Item Name="read text file.vim" Type="VI" URL="../read text file.vim"/>
 	<Item Name="send to debugview.vi" Type="VI" URL="../send to debugview.vi"/>
-	<Item Name="set pane orgin.vi" Type="VI" URL="../set pane orgin.vi"/>
+	<Item Name="set pane origin.vi" Type="VI" URL="../set pane origin.vi"/>
 	<Item Name="sort 2d array.vim" Type="VI" URL="../sort 2d array.vim"/>
 	<Item Name="this application info.vi" Type="VI" URL="../this application info.vi"/>
 	<Item Name="wait with error cluster.vi" Type="VI" URL="../wait with error cluster.vi"/>
