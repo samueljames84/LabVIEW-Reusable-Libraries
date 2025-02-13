@@ -17,7 +17,9 @@ samueljames84@gmail.com</Property>
 	<Item Name="create folder if not exists.vi" Type="VI" URL="../create folder if not exists.vi"/>
 	<Item Name="debugging probe.vi" Type="VI" URL="../debugging probe.vi"/>
 	<Item Name="defer panel updates.vim" Type="VI" URL="../defer panel updates.vim"/>
+	<Item Name="dir.mnu" Type="Document" URL="../dir.mnu"/>
 	<Item Name="enable or greyed out controls.vim" Type="VI" URL="../enable or greyed out controls.vim"/>
+	<Item Name="enable ot greyed out controls.vim" Type="VI" URL="../enable ot greyed out controls.vim"/>
 	<Item Name="exit application if runtime.vi" Type="VI" URL="../exit application if runtime.vi"/>
 	<Item Name="file dialog.vi" Type="VI" URL="../file dialog.vi"/>
 	<Item Name="format date and time.vi" Type="VI" URL="../format date and time.vi"/>
@@ -29,6 +31,7 @@ samueljames84@gmail.com</Property>
 	<Item Name="load class dynamically.vim" Type="VI" URL="../load class dynamically.vim"/>
 	<Item Name="load packed library plugin.vim" Type="VI" URL="../load packed library plugin.vim"/>
 	<Item Name="read text file.vim" Type="VI" URL="../read text file.vim"/>
+	<Item Name="reset control.vim" Type="VI" URL="../reset control.vim"/>
 	<Item Name="send to debugview.vi" Type="VI" URL="../send to debugview.vi"/>
 	<Item Name="set pane origin.vi" Type="VI" URL="../set pane origin.vi"/>
 	<Item Name="sort 2d array.vim" Type="VI" URL="../sort 2d array.vim"/>
